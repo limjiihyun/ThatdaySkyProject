@@ -1,0 +1,230 @@
+body {
+  background-color: #c9dcff;
+  display: flex;
+  justify-content: space-around;
+}
+main {
+  margin: auto;
+  max-width: 740px;
+  background-color: #edf5ff;
+  width: 742px;
+  height: 900px;
+  border-radius: 5px;
+}
+.home {
+  margin-left: 5px;
+}
+.top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-family: "ImcreSoojin";
+  font-size: 23px;
+}
+.close {
+  position: relative;
+  display: right;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  color: black;
+}
+.close:after {
+  content: "\00d7";
+  font-size: 50pt;
+  line-height: 35px;
+}
+#txt {
+  width: 430px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background: white;
+  margin-right: 30px;
+  padding: 5px;
+  font-family: "ImcreSoojin";
+  border-radius: 5px;
+}
+#txt:focus {
+  border-bottom: 3px solid black;
+}
+section {
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px 40px 10px 0px;
+  border-radius: 3px;
+}
+
+ul {
+  list-style: none;
+  margin-top: -10px;
+}
+li {
+  font-family: "ImcreSoojin";
+  font-size: 21px;
+  margin-top: 37px;
+}
+#todoForm {
+  padding-left: 70px;
+}
+
+.delete {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  margin-left: -7px;
+}
+.btnclear {
+  padding-left: 45px;
+  margin-top: 40px;
+}
+#clear {
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "ImcreSoojin";
+}
+#clear:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 2px 2px gray;
+}
+#add {
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+  background-color: #b4b4ff;
+  border-radius: 31px;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  font-family: "ImcreSoojin";
+  box-shadow: 3px 3px 3px black;
+}
+#add:active {
+  border: 4px solid #4b4bf4;
+  box-shadow: 0px 0px black;
+}
+.todo-comment {
+  float: left;
+}
+.comment {
+  float: right;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "ImcreSoojin";
+  border: none;
+}
+.comment-edit {
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 13px;
+  float: right;
+  margin-right: 6px;
+  font-family: "IBMPlexSansKR-Regular";
+  font-weight: 700;
+  background-color: rgb(255, 230, 160);
+  box-shadow: 2px 2px black;
+}
+.comment_read {
+  border-bottom: 2px solid;
+}
+.comment-edit:active {
+  box-shadow: 0px 0px black;
+}
+.comment-delete {
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 13px;
+  float: right;
+  font-family: "IBMPlexSansKR-Regular";
+  font-weight: 700;
+  background-color: rgb(255, 178, 178);
+  box-shadow: 2px 2px black;
+}
+.comment-delete:active {
+  box-shadow: 0px 0px black;
+}
+.comment-container {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-family: "KyoboHand";
+  margin-left: 26px;
+}
+.toggle {
+  border: none;
+  font-family: "KyoboHand";
+  width: 100%;
+  margin-top: 6px;
+  outline: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.toggle:focus {
+  border-bottom: 2px solid black;
+}
+.comment_submit {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: "ImcreSoojin";
+  height: 29px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-left: 18px;
+  background-color: #c4ccf8;
+  text-align: center;
+  border: none;
+  box-shadow: 3px 3px 3px black;
+}
+.comment_submit:hover {
+  border: 4px solid #4146eb;
+  box-shadow: 0px 0px black;
+}
+.readComment_hide {
+  display: none;
+}
+.edit {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+.edit:hover {
+  border: 2px solid rgb(255, 218, 178);
+  border-radius: 10px;
+  filter: drop-shadow(2px 2px black);
+}
+.comment:hover {
+  box-shadow: 2px 2px rgb(47, 47, 47);
+  color: rgb(39, 183, 255);
+  border-radius: 10px;
+}
+@font-face {
+  font-family: "ImcreSoojin";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KyoboHand";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IBMPlexSansKR-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

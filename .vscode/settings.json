@@ -1,0 +1,37 @@
+{
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": false,
+  "prettier.printWidth": 80,
+  "prettier.bracketSameLine": false,
+  "prettier.semi": true,
+  "prettier.bracketSpacing": true,
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ejs]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "authed",
+    "Indiv",
+    "signin",
+    "todocalendar",
+    "todos",
+    "userid",
+    "ImcreSoojin"
+  ]
+}
